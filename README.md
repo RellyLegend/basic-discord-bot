@@ -9,6 +9,7 @@ Create `.env` and add these and fill them.
 ```
 BOT_NAME=your bot name here
 BOT_TOKEN=your bot token here
+BOT_PREFIX=your bot prefix
 BOT_OWNER_NAME=bot owner name (Your Name)
 BOT_OWNER_ID=bot owner id (Your ID)
 ```
