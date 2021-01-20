@@ -1,0 +1,23 @@
+{
+  "name": "Basic Discord Bot",
+  "description": "A simple Basic Discord Bot made to improve the code for other people.",
+  "repository": "https://github.com/RellyLegend/basic-discord-bot",
+  "env": {
+    "BOT_TOKEN": {
+        "description": "Input your bot token here",
+        "value": "",
+        "required": "true"
+
+     },
+
+    "BOT_PREFIX": {
+        "description": "Input your bot prefix here",
+        "value": "!",
+        "required": "false"
+
+      }, 
+    "BOT_OWNER_ID": "Input your ID here",
+    "value": "",
+    "required": "true"
+  }
+}
