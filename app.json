@@ -16,7 +16,11 @@
         "required": "false"
 
       }, 
-    "BOT_OWNER_ID": "Input your ID here",
+
+    "BOT_OWNER_ID": {
+    "description": "Input your ID here",
     "value": "",
+    "required": "true"
+    }
   }
 }
