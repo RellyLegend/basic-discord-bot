@@ -13,7 +13,7 @@ if (message.content === `${prefix}ping`){
 const pingms = message.channel.send(":ping_pong: Pinging...")
 pingms.delete();
 message.channel.send(`🏓Latency is ${pingms.createdTimestamp - message.createdTimestamp}ms. 
-API Latency is ${Math.round(client.ws.ping)}ms`)
+Bot Latency is ${Math.round(client.ws.ping)}ms`)
 
 } else if(message.content === `${prefix}info`) {
   const owner = client.users.cache.get(process.env.BOT_OWNER_ID)
